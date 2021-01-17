@@ -1,5 +1,4 @@
-﻿using HtmlAgilityPack;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
@@ -11,12 +10,10 @@ namespace ezwebdl
 {
     partial class Program
     {
-        // HttpClient is intended to be instantiated once per application, rather than per-use. See Remarks.
         static readonly HttpClient client = new HttpClient();
         static HttpResponseMessage response;
         static async Task Main(string[] args)
         {
-            // Call asynchronous network methods in a try/catch block to handle exceptions
             try
             {
                 if(args[0] == "/h:code")
