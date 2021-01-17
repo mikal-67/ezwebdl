@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HttpClientTest
+namespace ezwebdl
 {
     partial class Program
     {
